@@ -1,0 +1,61 @@
+
+pas.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+complete
+  rotate: false
+  xy: 1, 225
+  size: 408, 280
+  orig: 408, 280
+  offset: 0, 0
+  index: -1
+pause
+  rotate: false
+  xy: 411, 222
+  size: 400, 283
+  orig: 400, 283
+  offset: 0, 0
+  index: -1
+return
+  rotate: false
+  xy: 1, 166
+  size: 177, 57
+  orig: 177, 57
+  offset: 0, 0
+  index: -1
+continue
+  rotate: false
+  xy: 813, 451
+  size: 173, 54
+  orig: 173, 54
+  offset: 0, 0
+  index: -1
+tool3
+  rotate: false
+  xy: 1, 83
+  size: 80, 81
+  orig: 80, 81
+  offset: 0, 0
+  index: -1
+tool4
+  rotate: false
+  xy: 813, 369
+  size: 81, 80
+  orig: 81, 80
+  offset: 0, 0
+  index: -1
+tool1
+  rotate: false
+  xy: 1, 1
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+tool2
+  rotate: false
+  xy: 83, 85
+  size: 79, 79
+  orig: 79, 79
+  offset: 0, 0
+  index: -1

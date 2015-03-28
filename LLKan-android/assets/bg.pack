@@ -1,0 +1,19 @@
+
+bg.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+gamebg
+  rotate: false
+  xy: 1, 1
+  size: 480, 800
+  orig: 480, 800
+  offset: 0, 0
+  index: -1
+menubg
+  rotate: false
+  xy: 483, 1
+  size: 480, 800
+  orig: 480, 800
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,31 @@
+
+help.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+tips1
+  rotate: false
+  xy: 1, 1
+  size: 417, 619
+  orig: 417, 619
+  offset: 0, 0
+  index: -1
+tips2
+  rotate: false
+  xy: 420, 1
+  size: 417, 619
+  orig: 417, 619
+  offset: 0, 0
+  index: -1
+
+help2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+tips3
+  rotate: false
+  xy: 1, 1
+  size: 417, 619
+  orig: 417, 619
+  offset: 0, 0
+  index: -1

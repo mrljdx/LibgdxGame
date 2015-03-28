@@ -1,0 +1,70 @@
+package com.mrljdx.llk;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+
+import com.badlogic.gdx.Gdx;
+
+public class Settings {
+	public static boolean soundEnable=true;
+	public static boolean touchEnable=true;
+	public final static int[] highscores=new int[]{100,80,60,40,20};
+	public static int level=1;
+	public final static String file=".link";
+	
+	public static void load(){
+		BufferedReader in=null;
+		try{
+			in=new BufferedReader(new InputStreamReader(Gdx.files.external(file).read()));
+			soundEnable=Boolean.parseBoolean(in.readLine());
+			touchEnable=Boolean.parseBoolean(in.readLine());
+			for(int i=0;i<5;i++){
+				highscores[i]=Integer.parseInt(in.readLine());
+			}
+		}catch(Throwable e){
+			
+		}finally{
+			try{
+				if(in!=null) in.close();
+			}catch(IOException e){
+				
+			}
+		}
+	}
+	
+	public static void save(){
+		BufferedWriter out=null;
+		try{
+			out=new BufferedWriter(new OutputStreamWriter(Gdx.files.external(file).write(false)));
+			out.write(Boolean.toString(soundEnable));
+			out.write(Boolean.toString(touchEnable));
+			for(int i=0;i<5;i++){
+				out.write(Integer.toString(highscores[i]));
+			}
+			out.write(level);
+		}catch(Throwable e){
+		}finally{
+			try{				
+			if(out!=null) out.close();
+			}catch(IOException e){				
+			}			
+		}
+	}
+	
+	public static void addScore(int score){ //²åÈë³É¼¨
+		for(int i=0;i<5;i++){
+			if(highscores[i]<score){
+				for(int j=4;j>i;j--){
+					highscores[j]=highscores[j-1];
+				}
+				highscores[i]=score;
+				break;
+			}
+		}
+		
+	}
+
+}

@@ -1,0 +1,103 @@
+
+pic.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+p0
+  rotate: false
+  xy: 1, 1
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+p1
+  rotate: false
+  xy: 57, 1
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+p10
+  rotate: false
+  xy: 113, 1
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+p11
+  rotate: false
+  xy: 169, 1
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+p12
+  rotate: false
+  xy: 225, 1
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+p13
+  rotate: false
+  xy: 281, 1
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+p2
+  rotate: false
+  xy: 337, 1
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+p3
+  rotate: false
+  xy: 393, 1
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+p4
+  rotate: false
+  xy: 449, 1
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+p5
+  rotate: false
+  xy: 505, 1
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+p6
+  rotate: false
+  xy: 561, 1
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+p7
+  rotate: false
+  xy: 617, 1
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+p8
+  rotate: false
+  xy: 673, 1
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+p9
+  rotate: false
+  xy: 729, 1
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,26 @@
+package com.mrljdx.llk;
+
+import com.badlogic.gdx.Game;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.utils.TimeUtils;
+
+public class LLKGame extends Game {
+	boolean firstTimeCreate = true; //判断是不是第一次进入游戏
+	
+	@Override
+	public void create() {
+		// TODO Auto-generated method stub
+		long starttime=TimeUtils.nanoTime();
+		Settings.load();
+		Assets.load();
+		long loadedtime=TimeUtils.nanoTime()-starttime;
+		Gdx.app.log("LLK", "Loading time :"+loadedtime);
+		setScreen(new MainMenuScreen(this));
+		
+	}
+	@Override
+	public void dispose(){
+		super.dispose();
+		getScreen().dispose();
+	}
+}
